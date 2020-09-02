@@ -38,5 +38,5 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: SonatypeCloudPipelineTask@0
   inputs:
-    SonatypeCloudService: 'devtest'
+    SonatypeCloudService: 'tdtest'
     stage: 'Build'
